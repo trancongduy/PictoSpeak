@@ -20,7 +20,7 @@ npm run build      # build ra dist/
 ```
 
 ## Đưa lên iPhone
-Chạy `npm run deploy` (build rồi đẩy lên nhánh `gh-pages`).
+Push lên nhánh `main` → GitHub Actions tự build và deploy (khoảng 1–2 phút). Dự phòng: `npm run deploy` (đẩy dist lên nhánh `gh-pages`, cần đổi Pages source sang branch).
 Mở `https://<user>.github.io/<repo>/` bằng Safari → Chia sẻ → **Thêm vào MH chính**.
 
 Giọng đọc hay hơn: Cài đặt → Trợ năng → Nội dung được đọc → Giọng nói → Tiếng Anh → tải giọng *Cao cấp/Nâng cao* (Serena, Daniel, Karen, Ava…).
