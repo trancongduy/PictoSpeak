@@ -20,7 +20,7 @@ npm run build      # build ra dist/
 ```
 
 ## Đưa lên iPhone
-Push lên GitHub (nhánh `main`), bật **Settings → Pages → Source: GitHub Actions**.
+Chạy `npm run deploy` (build rồi đẩy lên nhánh `gh-pages`).
 Mở `https://<user>.github.io/<repo>/` bằng Safari → Chia sẻ → **Thêm vào MH chính**.
 
 Giọng đọc hay hơn: Cài đặt → Trợ năng → Nội dung được đọc → Giọng nói → Tiếng Anh → tải giọng *Cao cấp/Nâng cao* (Serena, Daniel, Karen, Ava…).
